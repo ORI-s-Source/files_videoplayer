@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <info>
-	<id>files_videoplayer</id>
-	<name>Video player</name>
+	<id>files_videoplayer_ori</id>
+	<name>Video player ORI</name>
 	<description>A responsive video player using a skinned version of Video.js
 
 		Based on this app: https://apps.owncloud.com/content/show.php/Video+Js?content=159670
@@ -14,7 +14,7 @@
 	<licence>MIT</licence>
 	<author>Björn Korella</author>
 	<namespace>FilesVideoPlayer</namespace>
-	<default_enable/>
+	<default_enable />
 	<documentation>
 		<user>https://github.com/nextcloud/files_videoplayer/blob/master/README.md</user>
 		<admin>https://github.com/nextcloud/files_videoplayer/blob/master/README.md</admin>
@@ -24,6 +24,8 @@
 	<bugs>https://github.com/nextcloud/files_videoplayer/issues</bugs>
 	<repository type="git">https://github.com/nextcloud/files_videoplayer.git</repository>
 	<dependencies>
-		<nextcloud min-version="23" max-version="23" />
+		<nextcloud
+			min-version="23"
+			max-version="23" />
 	</dependencies>
 </info>

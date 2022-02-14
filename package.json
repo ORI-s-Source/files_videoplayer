@@ -1,5 +1,5 @@
 {
-  "name": "files_videoplayer",
+  "name": "files_videoplayer_ori",
   "version": "2.0.0",
   "description": "A responsive video player for Nextcloud using a skinned version of Video.js.",
   "private": true,
