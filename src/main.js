@@ -22,7 +22,7 @@
 import escapeHTML from 'escape-html'
 
 __webpack_nonce__ = btoa(OC.requestToken)
-__webpack_public_path__ = OC.filePath('files_videoplayer', '', 'js/')
+__webpack_public_path__ = OC.filePath('files_videoplayer_ori', '', 'js/')
 
 let videojs = null
 
@@ -46,7 +46,7 @@ const videoViewer = {
 			playerView.preload = 'auto'
 			playerView.width = '100%'
 			playerView.height = '100%'
-			playerView.poster = OC.filePath('files_videoplayer', '', 'img') + '/poster.png'
+			playerView.poster = OC.filePath('files_videoplayer_ori', '', 'img') + '/poster.png'
 			playerView.setAttribute('data-setup', '{"techOrder": ["html5"]}')
 			playerView.appendChild(source)
 
