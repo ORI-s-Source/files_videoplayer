@@ -128,7 +128,7 @@ const videoViewer = {
 		'video/ogg',
 		'video/quicktime',
 		'video/x-matroska',
-		'audio/*',
+		'audio/mpeg',
 	],
 	mimeTypeAliasses: {
 		'video/x-matroska': 'video/webm', // mkv support for Chrome. webm uses the same container format
